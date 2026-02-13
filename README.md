@@ -1,12 +1,24 @@
 # drmanagerr – Intelligent Medical Commission System
+
 Web & Android application for managing doctor information, tracking sales and commissions, visualizing revenue data, and analyzing performance using Gemini AI. Designed for clinics to streamline operations, track revenue, analyze performance, and send invoices automatically via WhatsApp.
 
 ---
 
 ## 👋 Overview
 
-drmanager combines a web application and an Android app to provide a complete solution for clinics. The system helps manage doctor profiles, record sales and prescriptions, calculate commissions, visualize financial data, and analyze performance using **Gemini AI**. It also automates sending invoices to doctors via WhatsApp.
+drmanagerr combines a web application and an Android app to provide a complete solution for clinics. The system helps manage doctor profiles, record sales and prescriptions, calculate commissions, visualize financial data, and analyze performance using **Gemini AI**. It also automates sending invoices to doctors via WhatsApp.
+
 This project was built using TypeScript, React, Node.js, and Supabase (PostgreSQL), with AI integration for financial analysis.
+
+---
+
+## 🌐 Live Demo
+
+👉 **Web App Demo (Fake Data):** [View Demo](https://steady-youtiao-3d18ec.netlify.app)
+
+> ⚠️ **Note:** This demo uses **fake data** for demonstration purposes only.  
+> It is intended to showcase the features and interface of the web application.  
+> No real database or sensitive information is connected.
 
 ---
 
@@ -33,23 +45,26 @@ This project was built using TypeScript, React, Node.js, and Supabase (PostgreSQ
 ---
 
 ## 📁 Project Structure
+
+```
 drmanagerr/
-├── node_modules/ # Dependencies
-├── components/ # UI components for web and mobile
-├── dist/ # Build output
-├── App.tsx # Main app file
-├── index.tsx # Web entry point
-├── supabase.ts # Supabase connection setup
-├── utils.ts # Utility functions
-├── types.ts # TypeScript type definitions
-├── package.json # Node.js dependencies and scripts
+├── node_modules/       # Dependencies
+├── components/         # UI components for web and mobile
+├── dist/               # Build output
+├── App.tsx             # Main app file
+├── index.tsx           # Web entry point
+├── supabase.ts         # Supabase connection setup
+├── utils.ts            # Utility functions
+├── types.ts            # TypeScript type definitions
+├── package.json        # Node.js dependencies and scripts
 ├── package-lock.json
-├── tsconfig.json # TypeScript config
-├── vite.config.ts # Vite build config
-├── .env.local # Environment variables (API keys, database URL)
-├── index.html # Web HTML entry
-├── metadata.json # Project metadata
-└── README.md # This file
+├── tsconfig.json       # TypeScript config
+├── vite.config.ts      # Vite build config
+├── .env.local          # Environment variables (API keys, database URL)
+├── index.html          # Web HTML entry
+├── metadata.json       # Project metadata
+└── README.md           # This file
+```
 
 ---
 
@@ -66,6 +81,13 @@ drmanagerr/
 
 ---
 
+## 💡 Notes for Demo
+
+- The **demo version** is fully functional but uses **fake/test data**  
+- **No connection to the real database** or sensitive information  
+- All keys and API integrations in the demo are **safe and test-only**  
+
+---
 
 ## 📫 Contact
 
@@ -74,5 +96,9 @@ drmanagerr/
 
 ---
 
-⭐ Designed for clinics to simplify management, automate financial processes, and provide actionable insights with AI.
+## ⭐ About This Project
+
+Designed for clinics to simplify management, automate financial processes, and provide actionable insights with AI.  
+This project demonstrates full-stack development skills, AI integration, and cross-platform application development for real-world scenarios.
+
 
